@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="habit.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Habit Tracker</h1>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value" id="total">0</div>
+                <div class="stat-label">Total Days</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="streak">0</div>
+                <div class="stat-label">Current Streak</div>
+            </div>
+        </div>
+        <div class="calendar" id="calendar"></div>
+        <div class="legend">
+            <span>Less</span>
+            <div class="day level-0"></div>
+            <div class="day level-1"></div>
+            <div class="day level-2"></div>
+            <div class="day level-3"></div>
+            <span>More</span>
+        </div>
+    </div>
+    <script src="habit.js"></script>
+</body>
+</html>
